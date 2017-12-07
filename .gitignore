@@ -100,5 +100,5 @@ ENV/
 # mypy
 .mypy_cache/
 
-./train/
-./test/
+train/
+test/
