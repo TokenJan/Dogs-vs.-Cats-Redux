@@ -1,7 +1,7 @@
-hdf5_path: dataset/dataset.hdf5
+train_hdf5: dataset/train_dataset.hdf5
+test_hdf5: dataset/test_dataset.hdf5
 train_path: train/*.jpg
 test_path: test/*.jpg
-train_percent: 0.6
-val_percent: 0.2
+train_percent: 0.8
 test_percent: 0.2
 backend: th
