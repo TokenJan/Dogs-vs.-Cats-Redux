@@ -4,4 +4,5 @@ train_path: train/*.jpg
 test_path: test/*.jpg
 train_percent: 0.8
 test_percent: 0.2
-backend: th
+backend: tf
+demo_num: 1

@@ -76,7 +76,7 @@ for i in range(train_num):
     # cv2 load images as BGR, convert it to RGB
     addr = train_addrs[i]
     img = cv2.imread(addr)
-    img = cv2.resize(img, (224, 224), interpolation=cv2.INTER_CUBIC)
+    img = cv2.resize(img, (224, 224))
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     # add any image pre-processing here
     # if the data order is Theano, axis orders should change
@@ -95,7 +95,7 @@ for i in range(test_num):
     # cv2 load images as BGR, convert it to RGB
     addr = test_addrs[i]
     img = cv2.imread(addr)
-    img = cv2.resize(img, (224, 224), interpolation=cv2.INTER_CUBIC)
+    img = cv2.resize(img, (224, 224))
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     # add any image pre-processing here
     # if the data order is Theano, axis orders should change
